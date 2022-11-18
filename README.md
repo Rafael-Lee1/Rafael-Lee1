@@ -1,4 +1,4 @@
-## Olá, eu sou a Rafael Desenvolvedor Full Stack
+## Olá, eu sou Rafael Desenvolvedor Full Stack
 <div align="left">
   <a href="https://github.com/Rafael-Lee1">
   <img width="42%" src="https://github-readme-stats.vercel.app/api?username=Rafael-Lee1&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
