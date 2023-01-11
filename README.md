@@ -16,8 +16,10 @@
   <img align="center" alt="Rafa-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
   <img align="right" alt="Rafa-pic" height="150" style="border-radius:50px;" src="https://33.media.tumblr.com/a087fbda5b369838058d8b50da183e92/tumblr_ni0udv7VdU1to3m7wo1_500.gif">
   <img align="center" alt="Rafa-Sql" height="30" width="40" src="https://github.com/Rafael-Lee1/Icons/blob/43010fe49656f545bcb0d8d2a8d3b714d76ae36e/SQL.gif">
+ <p>
+ <br/>
   <img align="center" alt="Rafa-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-  <img align="center" alt="Rafa-Kivy" height="30" width="40" src="https://github.com/Rafael-Lee1/Icons/blob/71b32b53c8d0709a3b7ae531c79c17c5fab9c2db/kivy_.png">
+  <img align="center" alt="Rafa-Kivy" height="30" width="40" src="https://github.com/Rafael-Lee1/Icons/blob/71b32b53c8d0709a3b7ae531c79c17c5fab9c2db/kivy_.png"></p>
 </div>
   
   ##
