@@ -10,12 +10,14 @@
   <img align="center" alt="Rafa-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
   <img align="center" alt="Rafa-React" height="30" width="40" src="https://github.com/Rafael-Lee1/Icons/blob/3a0959616c15176b879dbc17a71d8dd11c5fc5d3/Msql.gif">
   <img align="center" alt="Rafa-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="Rafa-Flask" height="30" width="40" src="https://github.com/Rafael-Lee1/Icons/blob/1961b03a02f5ef3514c743d07ac481e0caad87a4/FLASK.gif">
   <img align="center" alt="Rafa-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
   <img align="center" alt="Rafa-Django" height="30" width="40" src="https://github.com/Rafael-Lee1/Icons/blob/d9d0e61c6ba26dea6abfad9be89e0268bbc78132/Django.gif">
   <img align="center" alt="Rafa-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
   <img align="right" alt="Rafa-pic" height="150" style="border-radius:50px;" src="https://33.media.tumblr.com/a087fbda5b369838058d8b50da183e92/tumblr_ni0udv7VdU1to3m7wo1_500.gif">
   <img align="center" alt="Rafa-Sql" height="30" width="40" src="https://github.com/Rafael-Lee1/Icons/blob/43010fe49656f545bcb0d8d2a8d3b714d76ae36e/SQL.gif">
   <img align="center" alt="Rafa-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+  <img align="center" alt="Rafa-Kivy" height="30" width="40" src="https://github.com/Rafael-Lee1/Icons/blob/71b32b53c8d0709a3b7ae531c79c17c5fab9c2db/kivy_.png">
 </div>
   
   ##
