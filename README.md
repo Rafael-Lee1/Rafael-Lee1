@@ -6,7 +6,7 @@
 </div>
 <div style="display: inline_block"><br>
   <img align="center" alt="Rafa-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img align="center" alt="Rafa-Angular" height="30" width="40" src="https://github.com/Rafael-Lee1/Icons/blob/a846a6d667d24de91111323179953614de3bf9c4/Animation.gif">
+  <img align="center" alt="Rafa-Angular" height="30" width="40" src="https://github.com/Rafael-Lee1/Icons/blob/5032f1e720ee7f9c4855b3a96e755db34925e064/Angular.gif">
   <img align="center" alt="Rafa-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
   <img align="center" alt="Rafa-React" height="30" width="40" src="https://github.com/Rafael-Lee1/Icons/blob/3a0959616c15176b879dbc17a71d8dd11c5fc5d3/Msql.gif">
   <img align="center" alt="Rafa-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
@@ -19,6 +19,7 @@
  <p>
  <br/>
   <img align="center" alt="Rafa-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+   <img align="center" alt="Rafa-Bootstrap" height="30" width="40" src="https://github.com/Rafael-Lee1/Icons/blob/ba7dbc3956793ecad31588f034ac7de1a22e4f98/Bootstrap%20(2).gif">
   <img align="center" alt="Rafa-Kivy" height="30" width="40" src="https://github.com/Rafael-Lee1/Icons/blob/71b32b53c8d0709a3b7ae531c79c17c5fab9c2db/kivy_.png"></p>
 </div>
   
