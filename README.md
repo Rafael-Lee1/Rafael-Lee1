@@ -5,7 +5,7 @@
   <img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rafael-Lee1&layout=compact&langs_count=7&theme=dracula"/>
 </div>
 <div style="display: inline_block"><br>
-  <img align="center" alt="Rafa-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  <img align="center" alt="Rafa-Js" height="30" width="40" src="https://github.com/Rafael-Lee1/Icons/blob/f85d05ce344243c7a5f13ebe444b251000c1793a/icons8-javascript.gif">
   <img align="center" alt="Rafa-Angular" height="30" width="40" src="https://github.com/Rafael-Lee1/Icons/blob/5032f1e720ee7f9c4855b3a96e755db34925e064/Angular.gif">
   <img align="center" alt="Rafa-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
   <img align="center" alt="Rafa-React" height="30" width="40" src="https://github.com/Rafael-Lee1/Icons/blob/3a0959616c15176b879dbc17a71d8dd11c5fc5d3/Msql.gif">
