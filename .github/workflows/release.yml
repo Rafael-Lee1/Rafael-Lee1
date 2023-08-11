@@ -22,10 +22,10 @@ jobs:
       contents: write
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v2.4.2
+        uses: actions/checkout@v2
 
       - name: Setup Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v2.4.2  # Use a versão mais recente que suporta Node.js 16
         with:
           node-version: 16
 
@@ -50,4 +50,40 @@ jobs:
         run: |
           sed -i "s|image: .*|image: docker://platane/snk:${{ github.sha }}|" action.yml
 
-      # Rest of the steps...
+      - name: Build svg-only action
+        run: |
+          yarn build:action
+          rm -r svg-only/dist
+          mv packages/action/dist svg-only/dist
+
+      - name: Bump package version
+        run: yarn version --no-git-tag-version --new-version ${{ github.event.inputs.version }}
+
+      - name: Push new build, tag version, and push
+        id: push-tags
+        run: |
+          VERSION=${{ github.event.inputs.version }}
+
+          git config --global user.email "bot@platane.me"
+          git config --global user.name "release bot"
+          git add package.json svg-only/dist action.yml
+          git commit -m "📦 $VERSION"
+          git tag v$VERSION
+          git push origin main --tags
+
+          if [[ "$VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+            git tag v$( echo $VERSION | cut -d. -f 1-1 )
+            git tag v$( echo $VERSION | cut -d. -f 1-2 )
+            git push origin --tags --force
+            echo "prerelease=false" >> $GITHUB_ENV
+          else 
+            echo "prerelease=true" >> $GITHUB_ENV
+          fi
+
+      - uses: ncipollo/release-action@v1.12.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag: v${{ github.event.inputs.version }}
+          body: ${{ github.event.inputs.description }}
+          prerelease: ${{ env.PRERELEASE }}
