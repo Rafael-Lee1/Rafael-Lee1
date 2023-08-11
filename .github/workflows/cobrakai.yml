@@ -11,12 +11,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v2.4.2
+        uses: actions/checkout@v2
 
       - name: Setup Node.js
-        uses: actions/setup-node@v2.5.3
+        uses: actions/setup-node@v2  # Use a versão mais recente disponível
         with:
           node-version: 16
+
+      # Restante das etapas...
+
 
       - name: Install Dependencies and Build
         run: |
