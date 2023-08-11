@@ -1,9 +1,8 @@
 ## Olá, eu sou Rafael Desenvolvedor Full Stack
-<div align="left">
-  <a href="https://github.com/Rafael-Lee1">
-  <img width="42%" src="https://github-readme-stats.vercel.app/api?username=Rafael-Lee1&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-  <img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rafael-Lee1&layout=compact&langs_count=7&theme=dracula"/>
-</div>
+
+![Rafael's GitHub stats](https://github-readme-stats.vercel.app/api?username=Rafael-Lee1&show_icons=true&theme=transparent)]![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Rafael-Lee1&layout=compact&langs_count=7&theme=transparent)
+
+
 <div style="display: inline_block"><br>
   <img align="center" alt="Rafa-Js" height="30" width="40" src="https://github.com/Rafael-Lee1/Icons/blob/f85d05ce344243c7a5f13ebe444b251000c1793a/icons8-javascript.gif">
   <img align="center" alt="Rafa-Angular" height="30" width="40" src="https://github.com/Rafael-Lee1/Icons/blob/5032f1e720ee7f9c4855b3a96e755db34925e064/Angular.gif">
@@ -27,7 +26,7 @@
  
 <div> 
   <a href="https://www.instagram.com/rafael_santos2024/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
-  <a href = "mailto:vicent.cold@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href = "mailto:rafalee.dev@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://www.linkedin.com/in/rafael2023/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
  
 
