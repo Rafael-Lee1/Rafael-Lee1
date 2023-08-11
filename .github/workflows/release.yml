@@ -1,0 +1,53 @@
+name: release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: |
+          New version for the release
+          If the version is in format <major>.<minor>.<patch> a new release is emitted.
+          Otherwise for other format ( for example <major>.<minor>.<patch>-beta.1 ), a prerelease is emitted.
+        default: "0.0.1"
+        required: true
+        type: string
+      description:
+        description: "Version description"
+        type: string
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2.4.2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2.5.3
+        with:
+          node-version: 16
+
+      - name: Install Dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Login to Docker Hub
+        uses: docker/login-action@v1
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      - name: Build and Publish Docker image
+        uses: docker/build-push-action@v2
+        with:
+          push: true
+          tags: |
+            platane/snk:${{ github.sha }}
+            platane/snk:${{ github.event.inputs.version }}
+
+      - name: Update action.yml with new Docker image
+        run: |
+          sed -i "s|image: .*|image: docker://platane/snk:${{ github.sha }}|" action.yml
+
+      # Rest of the steps...
