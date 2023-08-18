@@ -1,8 +1,8 @@
 ## Olá, eu sou Rafael Desenvolvedor Full Stack
 
 <div style="display: flex; justify-content: center;">
-  [(<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Rafael-Lee1&show_icons=true&theme=midnight-purple" alt="Rafael's GitHub stats">)]
-  [(<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Rafael-Lee1&layout=compact&langs_count=7&theme=midnight-purple" alt="Top Langs">)]
+  [<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Rafael-Lee1&show_icons=true&theme=midnight-purple" alt="Rafael's GitHub stats">]
+  [<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Rafael-Lee1&layout=compact&langs_count=7&theme=midnight-purple" alt="Top Langs">]
 </div>
 <div>
   
