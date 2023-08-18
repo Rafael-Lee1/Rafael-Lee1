@@ -1,7 +1,9 @@
 ## Olá, eu sou Rafael Desenvolvedor Full Stack
 
-![Rafael's GitHub stats](https://github-readme-stats-sigma-five.vercel.app/api?username=Rafael-Lee1&show_icons=true&theme=midnight-purple)] ![Top Langs](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Rafael-Lee1&layout=compact&langs_count=7&theme=midnight-purple)
-
+<p align="center">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Rafael-Lee1&show_icons=true&theme=midnight-purple" alt="Rafael's GitHub stats">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Rafael-Lee1&layout=compact&langs_count=7&theme=midnight-purple" alt="Top Langs">
+</p>
 
 <div style="display: inline_block"><br>
   <img align="center" alt="Rafa-Js" height="30" width="40" src="https://github.com/Rafael-Lee1/Icons/blob/f85d05ce344243c7a5f13ebe444b251000c1793a/icons8-javascript.gif">
