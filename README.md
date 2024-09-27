@@ -35,11 +35,9 @@
   <img align="center" alt="Rafa-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
   <img align="center" alt="Rafa-Django" height="30" width="40" src="https://github.com/Rafael-Lee1/Icons/blob/d9d0e61c6ba26dea6abfad9be89e0268bbc78132/Django.gif">
   <img align="center" alt="Rafa-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
-  <img align="right" alt="Rafa-pic" height="150" style="border-radius:50px;" src="https://github.com/Rafael-Lee1/Icons/blob/a5b55256fd2eea4dc9e6da103c68b7d9db8159df/oie_trans.gif">
   <img align="center" alt="Rafa-Sql" height="30" width="40" src="https://github.com/Rafael-Lee1/Icons/blob/43010fe49656f545bcb0d8d2a8d3b714d76ae36e/SQL.gif">
-
   <img align="center" alt="Rafa-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-   <img align="center" alt="Rafa-Bootstrap" height="30" width="40" src="https://github.com/Rafael-Lee1/Icons/blob/ba7dbc3956793ecad31588f034ac7de1a22e4f98/Bootstrap%20(2).gif">
+  <img align="center" alt="Rafa-Bootstrap" height="30" width="40" src="https://github.com/Rafael-Lee1/Icons/blob/ba7dbc3956793ecad31588f034ac7de1a22e4f98/Bootstrap%20(2).gif">
   <img align="center" alt="Rafa-Kivy" height="30" width="40" src="https://github.com/Rafael-Lee1/Icons/blob/71b32b53c8d0709a3b7ae531c79c17c5fab9c2db/kivy_.png"></p>
 </div>
   
