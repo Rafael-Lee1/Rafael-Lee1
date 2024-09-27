@@ -1,5 +1,5 @@
 
-## Olá, eu sou Rafael Desenvolvedor Full Stack
+## Hello, I'm Rafael Full Stack Developer
 
 <h3 align="center">A passionate software developer from Brazil BR</h3>
  
@@ -48,7 +48,7 @@
                         <h2>🐍 My Contributions 🐍</h2>
   <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/salesp07/salesp07/output/github-contribution-grid-snake.svg" />
 <h3 align="center">
-    <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Taprom&duration=4000&pause=1000&color=F7ECEF&center=true&width=435&lines=Obrigado+pela+visita!%E2%9C%8C%EF%B8%8F" alt="Typing SVG" /></a>
+    <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Taprom&duration=4000&pause=1000&color=F7ECEF&center=true&width=435&lines=Thanks+for+visiting!%E2%9C%8C%EF%B8%8F" alt="Typing SVG" /></a>
 </h3>
 </div>
 
