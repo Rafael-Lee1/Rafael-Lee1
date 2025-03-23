@@ -46,13 +46,12 @@
 
 <div align="center">
   <h2>🐍 Minhas Contribuições 🐍</h2>
-  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/Rafael-Lee1/Rafael-Lee1/output/github-contribution-grid-snake.svg" />
+  <img alt="snake eating my contributions" src="https://rafael-lee1.github.io/snk/github-contribution-grid-snake.svg" />
   <h3 align="center">
-    <a href="https://git.io/typing-svg">
-      <img src="https://readme-typing-svg.demolab.com?font=Taprom&duration=4000&pause=1000&color=F7ECEF&center=true&width=435&lines=Obrigado+por+visitar!%E2%9C%8C%EF%B8%8F" alt="Typing SVG" />
-    </a>
+    <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Taprom&duration=4000&pause=1000&color=F7ECEF&center=true&width=435&lines=Obrigado+por+visitar!%E2%9C%8C%EF%B8%8F" alt="Typing SVG" /></a>
   </h3>
 </div>
+
 
 
 
