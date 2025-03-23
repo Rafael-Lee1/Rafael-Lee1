@@ -46,11 +46,11 @@
 
 <div align="center">
   <h2>🐍 Minhas Contribuições 🐍</h2>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rafael-Lee1/snk/refs/heads/main/assets/github-contribution-grid-snake-dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rafael-Lee1/snk/refs/heads/main/assets/github-contribution-grid-snake-light" />
-    <img alt="Animação da cobra representando minhas contribuições" src="https://raw.githubusercontent.com/Rafael-Lee1/snk/refs/heads/main/assets/github-contribution-grid-snake-light" />
-  </picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rafael-Lee1/snk/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rafael-Lee1/snk/output/github-contribution-grid-snake-light.svg" />
+  <img alt="Animação da cobra representando minhas contribuições" src="https://raw.githubusercontent.com/Rafael-Lee1/snk/output/github-contribution-grid-snake-light.svg" />
+</picture>
   <h3 align="center">
     <a href="https://git.io/typing-svg">
       <img src="https://readme-typing-svg.demolab.com?font=Taprom&duration=4000&pause=1000&color=F7ECEF&center=true&width=435&lines=Obrigado+por+visitar!%E2%9C%8C%EF%B8%8F" alt="Typing SVG" />
