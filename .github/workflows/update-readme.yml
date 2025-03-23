@@ -1,0 +1,37 @@
+name: Update README stats
+
+on:
+  schedule:
+    # Executa o workflow uma vez por dia, à meia-noite (horário UTC)
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+    # Permite que o workflow seja executado manualmente a partir do GitHub UI
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # 1. Checkout do repositório
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      # 2. Atualizar o README com informações de estatísticas
+      - name: Update README with GitHub stats
+        run: |
+          # Adiciona as estatísticas do GitHub ao README
+          echo "Atualizando o README com estatísticas do GitHub..." >> README.md
+          
+          # Adiciona a linha de estatísticas ao README
+          echo "![GitHub stats](https://github-readme-stats.vercel.app/api?username=Rafael-Lee1&show_icons=true&theme=midnight-purple)" >> README.md
+          echo "![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Rafael-Lee1&layout=compact&langs_count=7&theme=midnight-purple)" >> README.md
+
+          # Faz o commit e push para o repositório
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add README.md
+          git commit -m "Atualização diária do README"
+          git push
+
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
