@@ -58,3 +58,6 @@
   </h3>
 </div>
 
+Atualizando o README com estatísticas do GitHub...
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=Rafael-Lee1&show_icons=true&theme=midnight-purple)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Rafael-Lee1&layout=compact&langs_count=7&theme=midnight-purple)
