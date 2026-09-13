@@ -19,7 +19,7 @@
 
 <div align="center">
 
-| ![Image 1](https://github-readme-stats-sigma-five.vercel.app/api?username=Rafael-Lee1&show_icons=true&theme=midnight-purple) | ![Image 2](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=DanielRosenwasser&layout=compact&langs_count=7&theme=midnight-purple) |
+| ![Image 1](./profile/stats.svg) | ![Image 2](./profile/top-langs.svg) |
 | :---: | :---: |
 | Rafael's GitHub stats | Top Langs |
 

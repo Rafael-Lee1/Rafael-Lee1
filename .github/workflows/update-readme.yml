@@ -1,37 +1,49 @@
-name: Update README stats
+name: Update README cards
 
 on:
   schedule:
-    # Executa o workflow uma vez por dia, à meia-noite (horário UTC)
-    - cron: "0 0 * * *"
+    - cron: "0 3 * * *"
   workflow_dispatch:
-    # Permite que o workflow seja executado manualmente a partir do GitHub UI
+
+permissions:
+  contents: write
 
 jobs:
-  update-readme:
+  build:
     runs-on: ubuntu-latest
-    
+
     steps:
-      # 1. Checkout do repositório
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v6
 
-      # 2. Atualizar o README com informações de estatísticas
-      - name: Update README with GitHub stats
+      - name: Generate GitHub stats
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=Rafael-Lee1&show_icons=true&theme=midnight-purple
+          path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate Top Languages
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=Rafael-Lee1&layout=compact&langs_count=7&theme=midnight-purple
+          path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Commit updated cards
         run: |
-          # Adiciona as estatísticas do GitHub ao README
-          echo "Atualizando o README com estatísticas do GitHub..." >> README.md
-          
-          # Adiciona a linha de estatísticas ao README
-          echo "![GitHub stats](https://github-readme-stats.vercel.app/api?username=Rafael-Lee1&show_icons=true&theme=midnight-purple)" >> README.md
-          echo "![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Rafael-Lee1&layout=compact&langs_count=7&theme=midnight-purple)" >> README.md
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Faz o commit e push para o repositório
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git add README.md
-          git commit -m "Atualização diária do README"
-          git push
+          git add profile/*.svg
 
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update GitHub profile cards"
+            git push
+          fi
