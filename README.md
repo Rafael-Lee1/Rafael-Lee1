@@ -19,7 +19,7 @@
 
 <div align="center">
 
-| ![Image 1](./profile/stats.svg) | ![Image 2](./profile/top-langs.svg) |
+| ![Image 1](https://github-readme-stats.anuraghazra1.vercel.app/api?username=Rafael-Lee1&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&text_color=c3d1d9&bg_color=0d1117) | ![Image 2](https://beautiful-github-homepage.vercel.app/api/top-langs/?username=ishandutta2007&layout=compact&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&text_color=c3d1d9&bg_color=0d1117) |
 | :---: | :---: |
 | Rafael's GitHub stats | Top Langs |
 
